@@ -1,0 +1,11 @@
+name = Pellucid
+description = Pellucid is a black and white minimal design theme
+core = 7.x
+stylesheets[all][] = style.css
+stylesheets[all][] = layout.css
+regions[logo] = Logo
+regions[top_menu] = Top menu
+regions[main_menu] = Main menu
+regions[content] = Content
+regions[footer_menu] = Footer menu
+regions[footer_logo] = Footer logo
