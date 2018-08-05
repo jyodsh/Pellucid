@@ -1,0 +1,27 @@
+body {
+    font-family: 'Open Sans';
+    margin: 0 8%;
+}
+li a {
+    color: black;
+    text-decoration: none;
+}
+#name-and-slogan, #secondary-menu{
+    display:inline-grid;
+    width: 40%;
+}
+#name-and-slogan{
+    width: 60%;
+}
+#header #site-name, #header #site-slogan{display: inline;}
+#main-menu{clear: both}
+#main-menu-links {
+    list-style-type: none;
+    text-align: center;
+}
+#main-menu-links li {
+    display: inline;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 1%;
+}
