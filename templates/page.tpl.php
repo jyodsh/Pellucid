@@ -238,11 +238,11 @@
       </div> <!-- /#footer-columns -->
     <?php endif; */?>
 
-    <?php /* if ($page['footer']): ?>
+    <?php  if ($page['footer_menu']): ?>
       <div id="footer" class="clearfix">
-        <?php print render($page['footer']); ?>
+        <?php print render($page['footer_menu']); ?>
       </div> <!-- /#footer -->
-    <?php endif; */ ?>
+    <?php endif;  ?>
 
   </div></div> <!-- /.section, /#footer-wrapper -->
 

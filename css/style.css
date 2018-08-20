@@ -2,16 +2,23 @@ body {
     font-family: 'Open Sans';
     margin: 0 8%;
 }
-li a {
+#site-name a,li a {
     color: black;
     text-decoration: none;
 }
 #name-and-slogan, #secondary-menu{
     display:inline-grid;
-    width: 40%;
+    
+    /* width: 40%; */
+}
+#site-slogan {
+    font-size: 0.8em;
+}
+#site-name {
+    font-size: 2em;
 }
 #name-and-slogan{
-    width: 60%;
+    width: 80%;
 }
 #header #site-name, #header #site-slogan{display: inline;}
 #main-menu{clear: both}
@@ -22,6 +29,6 @@ li a {
 #main-menu-links li {
     display: inline;
     font-size: 1.6em;
-    font-weight: bold;
+    font-weight: 900;
     padding: 1%;
 }
