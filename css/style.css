@@ -32,3 +32,12 @@ body {
     font-weight: 900;
     padding: 1%;
 }
+#footer  ul {
+    text-align: center;
+}
+
+#footer .menu li{
+    list-style: none;
+    display: inline;
+    font-size: 0.8em;
+}
